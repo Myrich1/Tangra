@@ -1,23 +1,29 @@
 * {
    box-sizing: border-box;
    font-family: Georgia, 'Times New Roman', Times, serif;
-   color: white;
+   color: black;
 }
 
 html,body {
     margin: 0;
     padding: 0;
-    background-color: #c19a6b;
+    background-color: #F7C457;
 }
 
 .opened {
     padding: 0.5em 4em;
     border-bottom: 6px solid #855E42;
     background-color: black;
+   
 }
 .opened a {
     text-align: center;
     text-decoration: none;
+    color: white;
+}
+
+.opened p1 {
+    color: white;
 }
 .opened a:hover {
     opacity: 0.7;
@@ -50,11 +56,11 @@ text-shadow: 4px 4px 4px black;
     padding: 0em 3em;
 }
 .logo {
-    width: 400px;
-    height: 250px;
+    width: 357px;
+    height: 317px;
     position: absolute;
     right: 400px;
-    left: 450px;
+    left: 575px;
     top: 40px;
 }
 .our-activities {
