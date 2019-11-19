@@ -1,13 +1,17 @@
 * {
    box-sizing: border-box;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   color: black;
+   color:white;
+   font-weight: 900;
 }
 
 html,body {
     margin: 0;
     padding: 0;
-    background-color: #F7C457;
+    background: url(background43.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700x 1000px;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .opened {
@@ -41,7 +45,7 @@ nav a {
     display: inline-block;
     padding:1em 1em;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
     text-decoration: none;
 }
@@ -51,21 +55,30 @@ text-shadow: 4px 4px 4px black;
 }
 .buy-a-ticket {
     text-align: right;
-    font-weight: 700;
-    font-size: 23px;
-    padding: 0em 3em;
+    font-size: 30px;
+    padding: 0em 4em;
 }
 .logo {
     width: 357px;
     height: 317px;
     position: absolute;
     right: 400px;
-    left: 575px;
-    top: 40px;
+    left: 600px;
+    top: 55px;
+}
+.section {
+    top: 750px;
+
 }
 .our-activities {
-padding: 1em 4em;
-padding-right: 0em;
+    padding-top: 8em;
+    padding-left: 3em;
+}
+.middle-text {
+    text-align: auto;
+}
+.middle-img {
+    text-align: auto;
 }
 
 
