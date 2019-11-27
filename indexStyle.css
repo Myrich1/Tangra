@@ -63,23 +63,38 @@ text-shadow: 4px 4px 4px black;
     height: 317px;
     position: absolute;
     right: 400px;
-    left: 600px;
+    left: 450px;
     top: 55px;
 }
-.section {
-    top: 750px;
-
+.section a {
+    text-decoration: none;
+    text-align: left;
+}
+.section a:hover {
+    background-color: rgba(255, 255, 255, 0.267);
+    text-shadow: 4px 4px 4px black;
 }
 .our-activities {
-    padding-top: 8em;
+    padding-top: 35em;
     padding-left: 3em;
 }
 .middle-text {
-    text-align: auto;
+    text-align: left;
+    position: absolute;
+    left: 150px;   
+    right: 600px; 
+    bottom: -30px;
+    font-size: 19px;
 }
-.middle-img {
-    text-align: auto;
+.section img {
+    border: 5px solid black;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    bottom: -30px;
+    left: 713px;
 }
+
 
 
 
