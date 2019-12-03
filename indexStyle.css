@@ -2,6 +2,7 @@
    box-sizing: border-box;
    color:white;
    font-weight: 900;
+
 }
 
 html,body {
@@ -9,7 +10,7 @@ html,body {
     padding: 0;
     background: url(background43.jpg);
     background-repeat: no-repeat;
-    background-size: 1700x 1000px;
+    background-size: 2550px 1500px;
     font-size: 20px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
@@ -40,6 +41,42 @@ nav ul {
 nav li {
     display: inline;
 }
+.dropbtn {
+  background-color: inherit;
+  color: white;
+  padding: 16px;
+  font-size: 25px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.267);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 19px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
 
 nav a {
     display: inline-block;
@@ -49,14 +86,23 @@ nav a {
     font-weight: 700;
     text-decoration: none;
 }
-nav a:hover {
-background-color: rgba(255, 255, 255, 0.267);
-text-shadow: 4px 4px 4px black;
+nav a::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: rgb(255, 255, 255);
+    transition: all ease-in-out 300ms;
 }
-.buy-a-ticket {
+
+nav a:hover::after {
+    width: 100%;
+}
+nav ol  {
     text-align: right;
     font-size: 30px;
     padding: 0em 4em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .logo {
     width: 357px;
@@ -66,33 +112,34 @@ text-shadow: 4px 4px 4px black;
     left: 450px;
     top: 55px;
 }
-.section a {
-    text-decoration: none;
-    text-align: left;
-}
-.section a:hover {
-    background-color: rgba(255, 255, 255, 0.267);
-    text-shadow: 4px 4px 4px black;
-}
-.our-activities {
-    padding-top: 35em;
-    padding-left: 3em;
-}
 .middle-text {
     text-align: left;
     position: absolute;
-    left: 150px;   
-    right: 600px; 
-    bottom: -30px;
+    left: 12%;   
+    right: 45%; 
+    bottom: -5%;
     font-size: 19px;
 }
 .section img {
-    border: 5px solid black;
+    border: 4px solid black;
+    border-radius: 3%;
     width: 400px;
     height: 250px;
     position: absolute;
-    bottom: -30px;
-    left: 713px;
+    bottom: -5%;
+    right: 12%;
+}
+.groups {
+    position: absolute;
+    top: 120%;
+    left: 20%;
+    right: 20%;
+}
+.groups h3 {   
+    text-align: center;
+}
+.groups p {
+    text-align: center;
 }
 
 

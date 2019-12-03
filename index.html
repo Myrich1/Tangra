@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="indexStyle.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="logoTangra.png">
     </head>
     <body>
         <header>
@@ -15,17 +16,22 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="about.html">About us</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">About us</button>
+                        <div class="dropdown-content">
+                          <a href="#">Activities</a>
+                          <a href="#">Events</a>
+                          <a href="#">Who are we</a>
+                        </div>
+                      </div>
                     <li><a href="contact.html">Contact us</a></li>
-                    <div class="buy-a-ticket">
-                            <li><a href="buyaticket.html">BUY A TICKET</a></li>
-                    </div>
                 </ul>
+                <ol><li><a href="buyaticket.html">BUY A TICKET</a></li></ol>
             </nav>
                <a href="index.html"><img class="logo" src="logoTangra.png" alt="logo of the historical park"></a> 
         </header>
         <section class= "section">
-            <div class="our-activities">
+        <!--   <div class="our-activities">
                 <div class="activities">
                     <h3>Activities</h3>
                 </div>
@@ -45,6 +51,8 @@
                     <a href="archery.html">Fun archaeology</a>
                 </p1>
             </div>
+            -->
+            
             <div class="middle-text">
                 <h2>AN ADVENTURE IN TIME</h2>
                 <p>
@@ -56,6 +64,7 @@
             <div class="middle-img">
                 <img src="image-mid.jpg" alt="image of the historical park">
             </div>
+            <!--
             <div class="our-events-vertical-text">
                 <div class="our-events">
                      <h3>Our events</h3>
@@ -70,6 +79,7 @@
                         Weddings
                         Birthdays
                 </p1>
+            -->
             </div>
         </section>
         <footer>
